@@ -14,3 +14,5 @@ RUN pip install --upgrade pip && pip install -r requirements.txt
 
 # Copy project code
 COPY . /api/
+
+EXPOSE 8000
